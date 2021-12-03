@@ -22,15 +22,15 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-           
-            <h1>Todo list</h1></br></br>
-            <label for="listItem">New to Item</label></br></br>
+            <form method="post" action="" accept_charset="UTF-8">
+            <h1>Todo list</h1>
+            <label for="listItem">New to Item</label>
             <br>
             <input type="text" name="listItem">
             <br>
             <button>Save Item</button>
 
-
+            </form>
         </div>
     </body>
 </html>
