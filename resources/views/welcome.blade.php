@@ -22,7 +22,7 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            <form method="post" action="" accept_charset="UTF-8">
+            <form method="post" action="{{route('saveItem')}}" accept_charset="UTF-8">
             <h1>Todo list</h1>
             <label for="listItem">New to Item</label>
             <br>
@@ -34,3 +34,5 @@
         </div>
     </body>
 </html>
+
+
